@@ -1,0 +1,211 @@
+:root {
+    --pr-color : #31673E
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E8F5E9;
+}
+
+a:hover {
+    color: #E89E11;
+}
+
+/* Navbar Style */
+
+.navbar {
+    z-index: 3;
+}
+
+* {
+    z-index: 2;
+}
+
+.accsent-image {
+    z-index: 1;
+}
+
+.navbar-brandku {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--pr-color);
+    text-decoration: none;
+}
+
+.nav-linku {
+    font-size: 16px;
+    color: var(--pr-color);
+    text-decoration: none;
+}
+.nav-linku.active {
+    font-weight: 700;
+    color: #E89E11;
+    text-decoration: none;
+}
+
+.button-primary {
+    width: 133px;
+    height: 40px;
+    background-color: #ffff;
+    color: #E89E11;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: #ffff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+/* Hero Section */
+
+#hero {
+    background: linear-gradient(160deg,  #E8F5E9, var(--pr-color));
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero {
+    height: 564px;
+    width: 765px;
+    border-radius: 30px;
+    z-index: 1;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.img-hero-accsent {
+    height: 10000px;
+    width: 765px;
+    z-index: 1;
+    margin-right: 300px;
+}
+
+.hero-tagline h1 {
+    color: var(--pr-color);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+    text-align: left;
+}
+
+.hero-tagline p {
+    font-size: 16px;
+    color: linear-gradient(160deg,  #E8F5E9, var(--pr-color));
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%;
+}
+
+.button-lg-primary{
+    width: 273px;
+    height: 70px;
+    background-color: #fff;
+    color: #E89E11;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+/* Layanan Section */
+#layanan {
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color);
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #E89E11;
+}
+
+.card-layanan {
+    width: 100%;
+    height: 483px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+    
+}
+
+.circle-icon {
+    width: 200px;
+    height: 200px;
+    background-color: #E8F5E9;
+    border-radius: 50%;
+
+    transition: all .1s ease-in;
+}
+
+.card-layanan img {
+    height: 250px;
+    width: 250px;
+}
+
+.card-layanan h3 {
+    color: var(--pr-color);
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+
+.card-layanan p {
+    color: #E89E11;
+    font-size: 14px;
+    transition: all .3s ease-in;
+}
+
+/* Kondisi Hover */
+
+.card-layanan:hover {
+    width: 100%;
+    height: 483px;
+    border-radius: 5px;
+    background: var(--pr-color);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+    
+}
+
+.card-layanan:hover .circle-icon {
+    background-color: #fff;
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover img {
+    height: 250px;
+    width: 250px;
+}
+
+.card-layanan:hover h3 {
+    color: #fff;
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover p {
+    color: #fff;
+    font-size: 14px;
+    transition: all .2s ease-in;
+}
