@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Title -->
-        <title>candio</title>
+        <title>Candio</title>
 
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -61,17 +61,107 @@
         <section id="hero">
             <div class="container h-100 ">
                 <div class="row h-100 ">
-                    <div class="col-md-6 hero-tagline my-auto">
+                    <div class="col-md-8 hero-tagline my-auto">
                         <h1>
                             Temukan Pekerjaan Impian, Kelas Kursus, Projek Freelance, dan Produk Digital
                         </h1>
                         <p><span class="fw-bold">Candio</span> membantu untuk temukan pekerjaan impianmu, pelatihan atau kursus sesuai minatmu, mencari Freelance yang tepat untuk projekmu serta produk digital sesuai kebutuhanmu.</p>
                         <button class="button-lg-primary">Buat Projekmu</button>
                     </div>
+                    <div class="col-7">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="lowongan-tab" data-bs-toggle="tab" data-bs-target="#lowongan" type="button" role="tab" aria-controls="lowongan" aria-selected="true">Lowongan Kerja</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="kursus-tab" data-bs-toggle="tab" data-bs-target="#kursus" type="button" role="tab" aria-controls="kursus" aria-selected="false">Kelas Kursus</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="projek-tab" data-bs-toggle="tab" data-bs-target="#projek" type="button" role="tab" aria-controls="projek" aria-selected="false">Projek Freelance</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="produk-tab" data-bs-toggle="tab" data-bs-target="#produk" type="button" role="tab" aria-controls="produk" aria-selected="false">Produk Digital</button>
+                            </li>
+                        </ul>
+        
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="lowongan" role="tabpanel" aria-labelledby="lowongan-tab">
+                                <!-- Dropdown Lowongan -->
+                                <div class="input-group mb-3 input-cari">
+                                    <button class="button-cari-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="assets/images/lokasi.png" alt="">
+                                        Lokasi</button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    </ul>
+                                    <!-- Dropdown Range salary -->
+                                    
+                                    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Cari nama pekerjaan contohnya Manager">
+                                    <button class="button-cari-primary" type="button" id="button-addon2">Cari</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="kursus" role="tabpanel" aria-labelledby="kursus-tab">
+                                <!-- Dropdown Kelas Kursus -->
+                                <div class="input-group mb-3 input-cari">
+                                    <button class="button-cari-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="assets/images/tv.png" alt="">
+                                        Kategori</button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    </ul>
+                                    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Cari berdasarkan nama contohnya kursus Desain">
+                                    <button class="button-cari-primary" type="button" id="button-addon2">Cari</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="projek" role="tabpanel" aria-labelledby="projek-tab">
+                                <!-- Dropdown Projek Freelance -->
+                                <div class="input-group mb-3 input-cari">
+                                    <button class="button-cari-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="assets/images/tv.png" alt="">
+                                        Kategori</button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    </ul>
+                                    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Cari berdasarkan nama contohnya Pembuatan Aplikasi">
+                                    <button class="button-cari-primary" type="button" id="button-addon2">Cari</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="produk" role="tabpanel" aria-labelledby="produk-tab">
+                                <!-- Dropdown Produk Digital -->
+                                <div class="input-group mb-3 input-cari">
+                                    <button class="button-cari-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="assets/images/tv.png" alt="">
+                                        Kategori</button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    </ul>
+                                    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Cari berdasarkan nama contohnya Aplikasi Penjualan">
+                                    <button class="button-cari-primary" type="button" id="button-addon2">Cari</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <img src="assets/images/Layer_x0020_1 (2).png" class="accsent-image h-100 position-absolute top-0 start-0" alt="">
                 <img src="assets/images/accsent-hero.png" class="h-100 position-absolute end-0 bottom-0 img-hero-accsent" alt="">
                 <img src="assets/images/hero-banner.webp" class="position-absolute end-0 bottom-0 img-hero" alt="">
+                
             </div>
         </section>
 
@@ -83,6 +173,7 @@
                         <h2>Layanan Kami</h2>
                         <span class="sub-title">Candio hadir menjadi solusi bagi kamu</span>
                     </div>
+                    
                 </div>
                 <div class="row mt-5">
                     <div class="col-md-3 text-center">

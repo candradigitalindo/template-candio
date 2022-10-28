@@ -125,6 +125,7 @@ a:hover {
 /* Layanan Section */
 #layanan {
     padding: 100px 0;
+   
 }
 
 h2 {
@@ -208,4 +209,100 @@ h2 {
     color: #fff;
     font-size: 14px;
     transition: all .2s ease-in;
+}
+
+/* Serach Section */
+#search {
+    background-image: url(/assets/images/serach-background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#search h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+#search p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.input-cari {
+    height: 50px;
+    
+}
+
+.input-cari:focus {
+    border: none;
+}
+
+.button-cari-primary {
+    width: 90px;
+    height: 50px;
+    background-color: #ffff;
+    color: #E89E11;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-cari-secondary {
+    width: 133px;
+    height: 50px;
+    background-color: #ffff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.input-cari .button-cari-secondary {
+    width: 160px;
+    height: 50px;
+    background-size: rgba(255,255,255,0.8);
+    color: var(--pr-color);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0 0 0 10px;
+}
+
+.input-cari .button-cari-primary {
+    height: 50px;
+    background-color: var(--pr-color);
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 0 10px 10px 0;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0 0 0 0;
+    color: var(--pr-color);
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #E89E11;
+    
+    font-weight: 500;
 }
