@@ -17,6 +17,11 @@ a:hover {
     z-index: 3;
 }
 
+/* navbar Color */
+.navbar-color {
+    background-color: ;
+}
+
 * {
     z-index: 2;
 }
@@ -305,4 +310,84 @@ h2 {
     color: #E89E11;
     
     font-weight: 500;
+}
+
+/* Section Kontak */
+#contact {
+    background-image: url(/assets/images/serach-background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    
+}
+
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#contact .container {
+    padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #E8F5E9;
+}
+
+#contact h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #E8F5E9;
+    margin: 19px 0 14px 0;
+}
+
+.kontak a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #E8F5E9;
+    text-decoration: none;
+    margin-left: 18px;
+    width: 332px;
+    display: inline-block;
+}
+
+.link-social-media {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #E8F5E9;
+    text-decoration: none;
+}
+
+.card-contact {
+    width: 100%;
+    height: 445px;
+    background-color: #E8F5E9;
+    border-radius: 5px;
+    padding: 52px 48px;
+    text-align: center;
+    margin-bottom: 21px;
+
+}
+
+.card-contact .form-control {
+    background: #fff;
+    height: 75px !important;
+    
+}
+
+.button-kontak {
+    width: 100%;
+    height: 75px;
+    background: var(--pr-color);
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
 }
